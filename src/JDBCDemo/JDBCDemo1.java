@@ -9,7 +9,13 @@ public class JDBCDemo1 {
         //注册驱动，告知jvm使用的是哪个数据库驱动
         //DriverManager.registerDriver(new Driver());//可以使用，但是不好，注册驱动注册了两次
         //new Driver();//就可以注册驱动，注册一次，也有缺点。写死了，只是mysql
-        Class.forName("com.mysql.jdbc.Driver");//代码更具有通用性
+        try {
+            Class.forName("com.mysql.jdbc.Driver").newInstance();//代码更具有通用性
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
 
         //获取连接，获取与数据库的连接
         String url = "jdbc:mysql://localhost:3306/wangty";
