@@ -3,6 +3,7 @@ package wtyDemo;
 public class Day0719 {
     public static void main(String[] args) {
         new B();
+        System.out.println("110测试提交");
     }
 }
 class A {
