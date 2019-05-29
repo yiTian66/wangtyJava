@@ -148,7 +148,8 @@ public class Day0614 {
                     a[j] = a[i];
                     j--;
                 }
-            }
+
+}
             a[i] = key;
             quick_sort(a, begin, i - 1); /* 递归调用 */
             quick_sort(a, i + 1, end); /* 递归调用 */

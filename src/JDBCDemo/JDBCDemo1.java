@@ -5,7 +5,7 @@ import com.mysql.jdbc.Driver;
 import java.sql.*;
 
 public class JDBCDemo1 {
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+    public static void main(String[] args) throws Exception {
         //注册驱动，告知jvm使用的是哪个数据库驱动
         //DriverManager.registerDriver(new Driver());//可以使用，但是不好，注册驱动注册了两次
         //new Driver();//就可以注册驱动，注册一次，也有缺点。写死了，只是mysql
@@ -49,6 +49,7 @@ public class JDBCDemo1 {
             System.out.print(score);
             System.out.println();
             System.out.println("=================");
+            String s1 = new String("ssssssss");
         }
 
 
