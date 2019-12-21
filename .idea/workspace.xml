@@ -9,9 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b630252-1546-44c6-bc05-6213c8781afb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Single/Single.java" afterPath="$PROJECT_DIR$/src/Single/Single.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/wangtyJava/Single/Single.class" afterPath="$PROJECT_DIR$/out/production/wangtyJava/Single/Single.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -678,7 +677,7 @@
       <workItem from="1576458278963" duration="579000" />
       <workItem from="1576466215215" duration="5829000" />
       <workItem from="1576630050840" duration="1849000" />
-      <workItem from="1576829919988" duration="1729000" />
+      <workItem from="1576829919988" duration="1833000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交代码">
       <created>1531551980076</created>
@@ -736,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559091668450</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="6666666666">
+      <created>1576898075340</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576898075340</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -772,7 +778,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="671631000" />
+    <option name="totallyTimeSpent" value="671735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
